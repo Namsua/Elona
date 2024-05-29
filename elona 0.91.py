@@ -2,10 +2,10 @@ import pandas as pd
 import random
 from datetime import date
 
-url = f"https://docs.google.com/spreadsheets/d/{'14ntdMm5M-EJJIMh8jAaeeDyLF3ngIHqTmgJvElOfKIg'}/gviz/tq?tqx=out:csv&sheet={'VHP'}"
+url = f"https://docs.google.com/spreadsheets/d/{'write your attending google sheet url here'}/gviz/tq?tqx=out:csv&sheet={'VHP'}"
 data = pd.read_csv(url)		#VHP andmed
 
-url = f"https://docs.google.com/spreadsheets/d/{'1dj0hZAuXk708gnMw1MuHFiRWoEH06RJWlDqduvmXIwI'}/gviz/tq?tqx=out:csv&sheet={'Elona'}"
+url = f"https://docs.google.com/spreadsheets/d/{'write your individual scores google sheet url here'}/gviz/tq?tqx=out:csv&sheet={'Elona'}"
 data2 = pd.read_csv(url)	#Elona andmed
 
 #for i in range (1,len(data2)):
